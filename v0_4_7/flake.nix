@@ -10,7 +10,7 @@
   inputs.src-nesm-v0_4_7.flake = false;
   inputs.src-nesm-v0_4_7.ref   = "refs/tags/v0.4.7";
   inputs.src-nesm-v0_4_7.owner = "xomachine";
-  inputs.src-nesm-v0_4_7.repo  = "NESM.git";
+  inputs.src-nesm-v0_4_7.repo  = "NESM";
   inputs.src-nesm-v0_4_7.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
