@@ -11,7 +11,6 @@
   inputs.src-nesm-v0_4_6.ref   = "refs/tags/v0.4.6";
   inputs.src-nesm-v0_4_6.owner = "xomachine";
   inputs.src-nesm-v0_4_6.repo  = "NESM";
-  inputs.src-nesm-v0_4_6.dir   = "";
   inputs.src-nesm-v0_4_6.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

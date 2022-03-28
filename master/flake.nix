@@ -11,7 +11,6 @@
   inputs.src-nesm-master.ref   = "refs/heads/master";
   inputs.src-nesm-master.owner = "xomachine";
   inputs.src-nesm-master.repo  = "NESM";
-  inputs.src-nesm-master.dir   = "";
   inputs.src-nesm-master.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
